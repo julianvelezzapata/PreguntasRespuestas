@@ -350,3 +350,9 @@ CRITICAL - 2022-01-04 18:36:46 --> syntax error, unexpected 'mensaje' (T_STRING)
 #6 C:\xampp\htdocs\PreguntasRespuestas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #7 C:\xampp\htdocs\PreguntasRespuestas\index.php(37): CodeIgniter\CodeIgniter->run()
 #8 {main}
+CRITICAL - 2022-01-04 21:32:38 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\PreguntasRespuestas\system\CodeIgniter.php(825): App\Controllers\APIPreguntas->buscarPreguntas()
+#1 C:\xampp\htdocs\PreguntasRespuestas\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\APIPreguntas))
+#2 C:\xampp\htdocs\PreguntasRespuestas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\PreguntasRespuestas\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

@@ -39,6 +39,9 @@ $routes->get('/formulario/perdedor', 'Perdedor::index');
 $routes->post('/formulario/perdedor/resgitro', 'Perdedor::registrar');
 $routes->post('/formulario/ganador/resgitro', 'Ganador::registrar');
 
+//Rutas del API
+$routes->get('/preguntas/v1', 'APIPreguntas::buscarPreguntas');
+
 
 /*
  * --------------------------------------------------------------------

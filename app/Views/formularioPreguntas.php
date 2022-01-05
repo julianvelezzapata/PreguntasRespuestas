@@ -17,6 +17,7 @@
     </header>
 
     <div class="contenedor">
+        <input type="hidden" value="<?= base_url('preguntas/v1')  ?>" id="base_datos_json"  > 
 
     <div class="puntaje" id="puntaje"></div>
         <div class="encabezado card">
@@ -33,19 +34,22 @@
             <div class="btn" id="btn4" onclick="oprimir_btn(3)"></div>
     </div>
     
-
-    <script src="js/jquery.min.js"></script>
+    <script  src="<?=base_url('public/js/jquery.min.js') ?>"></script>
+    <script  src="<?=base_url('public/js/index.js') ?>"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+       
+
+
+
+        
+
+
 </body>
 
 </html>
-<script>
-$('#botoninicio').click(function(){
-    window.location = 'juegos.html';
-});
-</script>

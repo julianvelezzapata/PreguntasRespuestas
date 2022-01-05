@@ -21,6 +21,7 @@
                 <div class="col d-grid gap-2 text-align">
                     <button class="btn btn-warning btn3" style="height: 100px;" type="button" id="botoninicio">
                        <a href="<?= site_url('/formulario') ?>"> <h1>A JUGAR !</h1></a>
+                       <?= site_url('/preguntas/v1') ?>
                     </button>
                 </div>
             </div>
