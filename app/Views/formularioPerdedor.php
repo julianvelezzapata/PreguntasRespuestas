@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Animalandia</title>
+	<title>Ingresa tus datos</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
@@ -24,28 +24,31 @@
 			<h1>Diligencia tus datos personales y te avisaremos de otra encuesta</h1>
 			</div>
 			<form method="POST" action="<?= site_url('/formulario/perdedor/resgitro') ?>" class="mt-4 ">
-				<div class="mb-3">
+			    <div class="mb-3">
+					<label for="exampleFormControlTextarea1" class="form-label">cedula</label>
+					<input class="form-control" type="number" placeholder="cedula" aria-label="default input example" name="cedula">
+				</div>
+			    <div class="mb-3">
 					<label for="exampleInputEmail1" class="form-label">Nombre personal</label>
 					<input class="form-control" type="text" placeholder="nombre" aria-label="default input example " name="nombre">				
 				</div>
 				<div class="mb-3">
 					<label for="exampleInputPassword1" class="form-label">apellidos</label>
-					<input type="text" class="form-control" placeholder="escriba sus apellidos"name="apellidos">
+					<input type="text" class="form-control" placeholder="escriba sus apellidos"name="apellido">
 				</div>
 				<div class="mb-3">
 					<label for="exampleInputEmail1" class="form-label">Edad</label>
-					<input class="form-control" type="text" placeholder="edad" aria-label="default input example" name="edad">
+					<input class="form-control" type="number" placeholder="edad" aria-label="default input example" name="edad">
+				</div>
 					
-				<div class="mb-3">
-					<label for="exampleFormControlTextarea1" class="form-label">cedula</label>
-					<input class="form-control" type="text" placeholder="cedula" aria-label="default input example" name="cedula">
+                <div class="mb-3">
+					<label for="exampleFormControlTextarea1" class="form-label">correo electronico</label>
+					<input class="form-control" type="text" placeholder="correo electronico" aria-label="default input example" name="email">
 				</div>
 				        <div class="d-grid gap-2">
                             <button class="btn btn-primary" type="submit">Enviar</button>
                         </div>
-						<div class="d-grid gap-2">
-                             <a class="btn btn-primary " href="<?= site_url('/productos/listado/animales')?>"> ver lista de ganadores</a>
-                        </div>
+
 			</form>
 		</div>
 
@@ -58,7 +61,7 @@
 				<div class="modal-dialog">
 						<div class="modal-content">
 						<div class="modal-header fondoPrincipal">
-							<h5 class="modal-title" >Casa Hogar</h5>
+							<h5 class="modal-title" >participa para ganar</h5>
 							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 						</div>
 						<div class="modal-body">
