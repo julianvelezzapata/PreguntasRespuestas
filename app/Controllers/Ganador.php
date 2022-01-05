@@ -38,7 +38,7 @@ class Ganador extends BaseController
     try {                       // intente hacer esto  
         $modelo = new GanadorModelo();
         $modelo-> insert($datos);     // insert() palabra reservada codeignater para insertar el arreglo que contiene la informacion
-        return redirect()->to(site_url('/formulario/ganador'))->with('mensaje', "exito agrando informacion");
+        return redirect()->to(site_url('/'))->with('mensaje', "exito agrando informacion");
     
       } catch (\Exception $error) { // capture por que no pudo hacerse (error)
         return redirect()->to(site_url('/formulario/ganador'))->with('mensaje',$error -> getMessage());    

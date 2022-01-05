@@ -21,10 +21,13 @@ version 1
 la instalación se ralizara mediante el enlace : https://codeigniter.com/ 
 donde estará la base del framework que posee las funciones, después hay que tener clara la documentación: https://codeigniter.com/user_guide/index.html   que tendrá toda la información para utilizar correctamente el framework; en este caso necesito crear los modales , ingreso de datos a una base de datos y API rest
 
+
 # Uso
 
 La aplicación se ejecutará en una página web que mostrará un botón de inicio le daremos click y empezará el juego, una vez empezado el juego la aplicación lanzará las preguntas y deberé acertar el maximo de preguntas posibles, cada que cambie de categoria tendré la opcion de parar y llevarme el monto del dinero hasta el momento ganado, al final ; tendré que llenar el formulario con mi información personal para reclamar el premio.
-Para que la aplicación pueda funcionar correctamente necesitaré  un sistema de gestión de base de datos como XAMP para  utilizar el prtoyecto, además en MySql deberé importar la base de datos anexada al archivo llamada bdparticipantes para tener un sistema de información que guarde los datos.
+Para que la aplicación pueda funcionar correctamente necesitaré  un sistema de gestión de base de datos como XAMP puerto 8081 para  utilizar el prtoyecto, además en MySql deberé importar la base de datos anexada al archivo llamada bdparticipantes para tener un sistema de información que guarde los datos.
+dentro el proyecto estará la base de datos que contiene la informacion del proyecto y donde se guardarán los usuarios
+
 
 # Soporte
 
