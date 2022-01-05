@@ -340,3 +340,13 @@ CRITICAL - 2022-01-04 17:55:02 --> syntax error, unexpected end of file, expecti
 #6 C:\xampp\htdocs\PreguntasRespuestas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #7 C:\xampp\htdocs\PreguntasRespuestas\index.php(37): CodeIgniter\CodeIgniter->run()
 #8 {main}
+CRITICAL - 2022-01-04 18:36:46 --> syntax error, unexpected 'mensaje' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\PreguntasRespuestas\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\PreguntasRespuestas\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\PreguntasRespuestas\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\PreguntasRespuestas\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\PreguntasRespuestas\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\PreguntasRespuestas\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
