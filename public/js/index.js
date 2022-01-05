@@ -99,7 +99,7 @@ window.onload = function () {
       if ((preguntas_correctas % 5) == 0) { //modulo 5
         var resp = confirm('Usted ha ganado hasta el momento: ' + preguntas_correctas * 200000 + ' $. ACEPTAR: para continuar, CANCELAR: para finalizar el juego.'); // muestra mensaje de confirmacion por sin quiere seguir o salir
         if (!resp) { // verifica si el usuario haya pulsado cancelar para sacarlo del juego
-          window.location = 'http://localhost:8081/PreguntasRespuestas/index.php/formulario/ganador'; 
+          window.location = document.getElementById("formulario_ganador").value; 
         }
       }
   
@@ -107,7 +107,7 @@ window.onload = function () {
       btn_correspondiente[i].style.background = "pink"
   
       alert('Usted ha fallado en las respuestas. Fin del Juego !');
-      window.location = 'http://localhost:8081/PreguntasRespuestas/index.php/formulario/perdedor';
+      window.location = document.getElementById("formulario_perdedor").value;
   
     }
     // si no acierta le pinta la correcta para mostrarle cual era la verdadera

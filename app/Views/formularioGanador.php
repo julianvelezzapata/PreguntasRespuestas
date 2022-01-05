@@ -21,7 +21,7 @@
     <main>
 		<div class="container mb-5">
 			<div class="mb-3">
-			<h1>Diligencia tus datos personales y te avisaremos de otra encuesta</h1>
+			<h1>Diligencia tus datos personales para avisarte que reclames tu premio</h1>
 			</div>
 			<form method="POST" action="<?= site_url('/formulario/ganador/resgitro') ?>" class="mt-4 ">
 			    <div class="mb-3">

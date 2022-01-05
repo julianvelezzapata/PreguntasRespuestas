@@ -18,6 +18,9 @@
 
     <div class="contenedor">
         <input type="hidden" value="<?= base_url('preguntas/v1')  ?>" id="base_datos_json"  > 
+        <input type="hidden" value="<?= base_url('formulario')  ?>" id="pantalla_inicio"  >
+        <input type="hidden" value="<?= base_url('formulario/perdedor')  ?>" id="formulario_perdedor"  > 
+        <input type="hidden" value="<?= base_url('formulario/ganador')  ?>" id="formulario_ganador"  >
 
     <div class="puntaje" id="puntaje"></div>
         <div class="encabezado card">

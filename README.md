@@ -10,6 +10,7 @@ para construir el proyecto voy a utilizar el framework de codeLgniter
 documentacion: https://codeigniter.com/user_guide/index.html
 
 Durante la construccion del juego voy a crear una base de datos que elmacenará la informacion de los gandores y perdedores del juego; para ello utilizaré el modelo vista controlador que funcionara con vistas y controlodaores que ejecutarán tanto el ingreso de la información como la validación de los campos
+cada 5 preguntas te da la opcion de que te retires o de que te quedes con el premio
 
 # Insignias
 
@@ -45,6 +46,8 @@ agrdecimiento: Codelgniter https://codeigniter.com/
 software libre
 
 # Estado del proyecto
+
+terminado
 
 
 

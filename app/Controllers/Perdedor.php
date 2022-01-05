@@ -38,7 +38,9 @@ class Perdedor extends BaseController
     try {                       // intente hacer esto  
         $modelo = new PerdedorModelo();
         $modelo-> insert($datos);     // insert() palabra reservada codeignater para insertar el arreglo que contiene la informacion
-        return redirect()->to(site_url('/formulario/perdedor'))->with('mensaje', "exito agregando productos");
+        return redirect()->to(site_url('/'))->with('mensaje', "exito agregando usuario");
+        
+        
     
       } catch (\Exception $error) { // capture por que no pudo hacerse (error)
         return redirect()->to(site_url('/formulario/perdedor'))->with('mensaje',$error -> getMessage());    
